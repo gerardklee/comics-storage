@@ -32,12 +32,66 @@ function App() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>Tuesday</Col>
-          <Col>Wednesday</Col>
-          <Col>Thursday</Col>
-          <Col>Friday</Col>
-          <Col>Saturday</Col>
-          <Col>Sunday</Col>
+          <Col>
+            <Card>
+              <Card.Body>
+                <Card.Title>T</Card.Title>
+                <Card.Text>
+                  Quick Text
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Body>
+                <Card.Title>W</Card.Title>
+                <Card.Text>
+                  Quick Text
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Body>
+                <Card.Title>Th</Card.Title>
+                <Card.Text>
+                  Quick Text
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Body>
+                <Card.Title>F</Card.Title>
+                <Card.Text>
+                  Quick Text
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Body>
+                <Card.Title>Sa</Card.Title>
+                <Card.Text>
+                  Quick Text
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Body>
+                <Card.Title>Su</Card.Title>
+                <Card.Text>
+                  Quick Text
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </Container>
     </div >
