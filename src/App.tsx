@@ -1,12 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Figure from 'react-bootstrap/Figure';
+import Row from 'react-bootstrap/Row';
 import './App.css';
+import toughLife from './pics/tough_life.png';
+import randomPeople from './pics/random_people.png';
+import yumiCells from './pics/yumi.png';
+import romanceRevolution from './pics/romance_revolution.png';
+import lookism from './pics/lookism.png';
+import tigers from './pics/tigers.png';
+import fightSchool from './pics/learn_fight.png';
+
 
 function App() {
   return (
@@ -23,74 +31,102 @@ function App() {
         </Row>
         <Row>
           <Col>
-            <Card>
-              <Card.Body>
-                <Card.Title>M</Card.Title>
-                <Card.Text>
-                  Quick Text
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Figure>
+              <Figure.Image
+                roundedCircle={true}
+                thumbnail={true}
+                width={100}
+                height={100}
+                src={toughLife}
+              />
+              <Figure.Caption>
+                Tough Life
+              </Figure.Caption>
+            </Figure>
           </Col>
           <Col>
-            <Card>
-              <Card.Body>
-                <Card.Title>T</Card.Title>
-                <Card.Text>
-                  Quick Text
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Figure>
+              <Figure.Image
+                roundedCircle={true}
+                thumbnail={true}
+                width={143}
+                height={100}
+                src={randomPeople}
+              />
+              <Figure.Caption>
+                Random People
+              </Figure.Caption>
+            </Figure>
           </Col>
           <Col>
-            <Card>
-              <Card.Body>
-                <Card.Title>W</Card.Title>
-                <Card.Text>
-                  Quick Text
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Figure>
+              <Figure.Image
+                roundedCircle={true}
+                thumbnail={true}
+                width={125}
+                height={50}
+                src={yumiCells}
+              />
+              <Figure.Caption>
+                Yumi's Cells
+              </Figure.Caption>
+            </Figure>
           </Col>
           <Col>
-            <Card>
-              <Card.Body>
-                <Card.Title>Th</Card.Title>
-                <Card.Text>
-                  Quick Text
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Figure>
+              <Figure.Image
+                roundedCircle={true}
+                thumbnail={true}
+                width={105}
+                height={120}
+                src={romanceRevolution}
+              />
+              <Figure.Caption>
+                Romance Revolution
+              </Figure.Caption>
+            </Figure>
           </Col>
           <Col>
-            <Card>
-              <Card.Body>
-                <Card.Title>F</Card.Title>
-                <Card.Text>
-                  Quick Text
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Figure>
+              <Figure.Image
+                roundedCircle={true}
+                thumbnail={true}
+                width={93}
+                height={100}
+                src={lookism}
+              />
+              <Figure.Caption>
+                Lookism
+              </Figure.Caption>
+            </Figure>
           </Col>
           <Col>
-            <Card>
-              <Card.Body>
-                <Card.Title>Sa</Card.Title>
-                <Card.Text>
-                  Quick Text
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Figure>
+              <Figure.Image
+                roundedCircle={true}
+                thumbnail={true}
+                width={136}
+                height={100}
+                src={tigers}
+              />
+              <Figure.Caption>
+                Tigers
+              </Figure.Caption>
+            </Figure>
           </Col>
           <Col>
-            <Card>
-              <Card.Body>
-                <Card.Title>Su</Card.Title>
-                <Card.Text>
-                  Quick Text
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Figure>
+              <Figure.Image
+                roundedCircle={true}
+                thumbnail={true}
+                width={102}
+                height={100}
+                src={fightSchool}
+              />
+              <Figure.Caption>
+                Fight School
+              </Figure.Caption>
+            </Figure>
           </Col>
         </Row>
       </Container>
